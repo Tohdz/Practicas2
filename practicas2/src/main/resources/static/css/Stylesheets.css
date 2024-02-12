@@ -177,6 +177,11 @@ div p{
     font-size: 40px;
 }
 
+.div-p{
+    font-size: 30px;
+    color: green;
+}
+
 .pag2 {
     background-image: url('imagenes/im2.jpg');   
     background-size: cover;  
@@ -257,3 +262,142 @@ div p{
     height: 100vh;
 }
 
+.pag7 {
+    background-image: url('imagenes/im7.jpg');   
+    background-size: cover;  
+    background-position: center;  
+    background-repeat: no-repeat;  
+    background-attachment: fixed;
+    margin: 0;  
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.pag8 {
+    background-image: url('imagenes/im8.jpg');   
+    background-size: cover;  
+    background-position: center;  
+    background-repeat: no-repeat;  
+    background-attachment: fixed;
+    margin: 0;  
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.pag9 {
+    background-image: url('imagenes/im9.jpg');   
+    background-size: cover;  
+    background-position: center;  
+    background-repeat: no-repeat;  
+    background-attachment: fixed;
+    margin: 0;  
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.cuadroder {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con opacidad */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.cuadroizq {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con opacidad */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.cuadrocen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con opacidad */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.textoder {
+    color: #333; /* Color del texto */
+    font-size: 40px;
+    font-weight: bold;
+    color: green;
+    text-decoration: underline;
+}
+
+.textoizq {
+    color: #333; /* Color del texto */
+    font-size: 40px;
+    font-weight: bold;
+    color: green;
+    text-decoration: underline;
+}
+
+.textocen {
+    color: #333; /* Color del texto */
+    font-size: 40px;
+    font-weight: bold;
+    color: green;
+    text-decoration: underline;
+}
+
+.cuadro-contacto {
+    background-color: #fff; /* Color de fondo del cuadro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra del cuadro */
+    width: 300px;
+    text-align: center;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.h2con{
+    color: darkgreen; 
+    font-size: 30px; /* Tamaño del texto, puedes ajustarlo según tus preferencias */
+    text-align: center;
+    text-decoration: underline;
+}
